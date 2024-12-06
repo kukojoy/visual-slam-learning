@@ -103,8 +103,8 @@ angle_rad: 	旋转角, 单位弧度(rad)
 -v	/ --verbose: 输出一些更详细的中间信息，如Rotation of alignment
 -p	/ --plot: 启用绘图
 -a 	/ --align: 采用SE(3) Umeyama对齐，只处理平移和旋转
--as 	/ --align --correct_scale: 采用Sim(3) Umeyama对齐，同时处理平移、旋转和尺度
--s  	/ --correct_scale: 仅对齐尺度
+-as / --align --correct_scale: 采用Sim(3) Umeyama对齐，同时处理平移、旋转和尺度
+-s  / --correct_scale: 仅对齐尺度
 
 data_format:  kitti, tum, euroc
 mode: xyz, xz
